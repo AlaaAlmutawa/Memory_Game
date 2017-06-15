@@ -178,112 +178,68 @@ include 'header.php'
                                             <div class="col-md-12 without-padding">
                                                 <div class="game-container">
                                                     <!--the circles and squares-->
-                                                    <div class="row">
-                                                        <div class="col-md-3">
+                                                    <div class="disks">
                                                             <div class="disk">
 
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-2">
                                                             <div class="disk">
 
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-2">
                                                             <div class="disk">
 
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-2">
                                                             <div class="disk">
 
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-3">
                                                             <div class="disk">
 
                                                             </div>
-                                                        </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
+                                                            <div class="disk">
+
+                                                            </div>
                                                     </div>
-                                                    <div class="row">
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                            <div class="disk">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <div class="disk">
-
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -296,7 +252,5 @@ include 'header.php'
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
 <?php include 'footer.php'?>

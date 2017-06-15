@@ -57,7 +57,10 @@ body {
   background-color: #f1f2f2;
   border-radius: 8px;
   padding: 10px;
-  margin: 10px; }
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px; }
   .top-10 span {
     vertical-align: middle; }
     .top-10 span.title {
@@ -133,16 +136,25 @@ img {
 .game .game-container {
   background-color: #e2e3e4;
   border-radius: 8px;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 1px 1px 1px 1px grey;
-  margin-right: 20px; }
-  .game .game-container .disk {
+  margin-right: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 10px; }
+
+.game .disks {
+  display: inline-block;
+  margin: 0 auto; }
+  .game .disks .disk {
     background-color: #b9babb;
     border-radius: 50%;
-    margin: 0 auto;
     margin-top: 10px;
-    width: 83px;
-    height: 87px; }
+    width: 90px;
+    height: 95px;
+    margin-left: 10px;
+    float: left; }
 
 .without-border {
   border-bottom: none; }
