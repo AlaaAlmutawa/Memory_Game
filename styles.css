@@ -18,7 +18,7 @@
 
 body {
   background: linear-gradient(#fdfdfd, #c5c5c5);
-  height: 865px; }
+  padding: 70px; }
 
 .section {
   width: 100%;
@@ -54,15 +54,38 @@ body {
   color: #007624; }
 
 .top-10 {
-  background-color: #f1f2f2; }
+  background-color: #f1f2f2;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px; }
+  .top-10 span {
+    vertical-align: middle; }
+    .top-10 span.title {
+      font-size: 16.19px;
+      color: white; }
+    .top-10 span.orange {
+      font-size: 70.16px;
+      color: #f7bc3b;
+      background-color: #f1f2f2; }
 
-.users p .name {
-  font-size: 13.3px;
-  color: #b3b3b3; }
+.title {
+  background-color: #999999;
+  width: 50%;
+  margin: 0px; }
 
-.users p .time {
-  font-size: 12.5px;
-  color: #646464; }
+.user {
+  border-bottom: 3px dotted;
+  padding-top: 2px; }
+  .user p {
+    font-size: 13.3px;
+    color: #b3b3b3;
+    font-weight: 300;
+    line-height: 10px; }
+  .user span.time {
+    font-size: 12.5px;
+    color: #646464;
+    font-weight: bold;
+    float: right; }
 
 .col-centered {
   float: none;
@@ -90,5 +113,38 @@ img {
 
 .relative {
   position: relative; }
+
+.game p {
+  font-size: 14.58px;
+  color: #010101;
+  font-weight: 300;
+  text-align: right; }
+
+.game a {
+  border-radius: 5px;
+  display: inline; }
+  .game a.start {
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#b5dc74, #77a230);
+    padding: 10px; }
+
+.game .game-container {
+  background-color: #e2e3e4;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-right: 20px; }
+  .game .game-container .disk {
+    background-color: #b9babb;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 83px;
+    height: 87px; }
+
+.without-border {
+  border-bottom: none; }
 
 /*# sourceMappingURL=styles.css.map */
