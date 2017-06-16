@@ -151,6 +151,15 @@ img.right {
   color: #010101;
   font-weight: 300;
   text-align: right; }
+  .game p.timer {
+    border-radius: 5px;
+    display: inline;
+    font-size: 29px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#b5dc74, #77a230);
+    float: right; }
 
 .game a {
   border-radius: 5px;
@@ -221,6 +230,9 @@ img.right {
 
 .text-align-right {
   text-align: right; }
+
+.hidden {
+  display: none; }
 
 .img-center {
   margin: 0 auto; }

@@ -68,6 +68,7 @@ include 'header.php'
                         <div class="col-md-4 col-md-offset-2">
                             <!--button-->
                             <a class="start" id="start-btn">START</a>
+                            <p class="timer hidden" id="timer"></p>
                         </div>
                     </div>
                 </div>

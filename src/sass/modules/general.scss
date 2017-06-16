@@ -158,6 +158,16 @@ a{
     color: #010101;
     font-weight:300;
     text-align: right;
+    &.timer{
+      border-radius: 5px;
+      display: inline;
+      font-size: 29px;
+      padding: 10px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(#b5dc74, #77a230);
+      float: right;
+    }
   }
   a {
     border-radius: 5px;
@@ -237,6 +247,9 @@ a{
 }
 .text-align-right{
   text-align: right;
+}
+.hidden{
+  display: none;
 }
 .img-center {margin:0 auto;}
 
