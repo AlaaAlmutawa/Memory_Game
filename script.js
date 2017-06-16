@@ -25,11 +25,19 @@ function add() {
 function timer() {
     t = setTimeout(add, 1000);
 }
+function removeLevelsDiv(){
+    $('.difficulties').addClass("hidden");
+}
+function fillColors(){ //fill the colors behind the disks to be revealed once the disk is clicked
+    var colors = ['#6b4052', '#edcbd4', '#f8cd62', '#7c6258', '#9a986f', '#896539', '#009cb7', '#3f6bae', '#6a5994', '#8fc9c2' ]; //the number of colors have to be hlf the number of the disks
+
+}
 $('#start-btn').on('click', function(){
     //set a timer once clicked and show the user the time spent playing while playing
     $('#start-btn').addClass("hidden");
     timer_text.removeClass("hidden");
     timer_text.text("00:00:00");
+    removeLevelsDiv();
     timer();
     fillColors(); //method that would set each disk to a certian color that can be flipped to be reaveled
 

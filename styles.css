@@ -169,7 +169,8 @@ img.right {
   .game a.start {
     font-weight: bold;
     color: white;
-    background: linear-gradient(#b5dc74, #77a230); }
+    background: linear-gradient(#b5dc74, #77a230);
+    float: right; }
   .game a.play-again {
     color: #626161;
     background: linear-gradient(#fbd47d, #f8c149); }
@@ -212,10 +213,10 @@ img.right {
       .game .disks .disk {
         width: 90px;
         height: 95px; } }
-    @media (max-width: 500px) {
+    @media (max-width: 540px) {
       .game .disks .disk {
-        width: 80px;
-        height: 85px; } }
+        width: 70px;
+        height: 75px; } }
     @media (max-width: 490px) {
       .game .disks .disk {
         width: 70px;
