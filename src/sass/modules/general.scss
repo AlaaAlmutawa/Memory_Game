@@ -9,6 +9,7 @@ body{
   font-size: $primary-size;
   font-weight: bold;
 }
+
 .top-text{
   text-align: right;
   vertical-align: bottom;
@@ -17,7 +18,15 @@ body{
     padding-top: 30px;
   }
 }
-.congratulations{
+a{
+  text-decoration: none;
+  color: #666666;
+  &.fb-icon{
+    color: #3d61b1;
+    font-size: 70px;
+  }
+}
+.text{
   text-align: right;
   vertical-align: bottom;
   padding-top: 70px;
@@ -31,6 +40,11 @@ body{
     font-size: 19.52px;
     font-weight:bold;
     color: #f7bc3b;
+  }
+  .fb-text{
+    font-size: 19.52px;
+    font-weight:bold;
+    color: #3d61b1;
   }
 }
 .block{
@@ -110,15 +124,17 @@ body{
 }
 
   img {
-    position: absolute;
 
     &.left{
+      position: absolute;
       left: 0.1%;
       @media (max-width: 991px) {
           display:none;
       }
     }
     &.right{
+      position: absolute;
+
       right:0.1%;
       @media (max-width: 991px) {
         display:none;
@@ -146,14 +162,16 @@ body{
   a {
     border-radius: 5px;
     display: inline;
+    font-size: 29px;
+    padding: 10px;
     &.start {
-        font-size: 29px;
        font-weight: bold;
        color: white;
         background: linear-gradient(#b5dc74, #77a230);
-        padding: 10px;
       }
       &.play-again{
+        color: #626161;
+        background: linear-gradient(#fbd47d, #f8c149);
 
       }
     }
@@ -229,5 +247,7 @@ body{
 .without-border{
   border-bottom: none;
 }
+.img-center {margin:0 auto;}
+
 
 

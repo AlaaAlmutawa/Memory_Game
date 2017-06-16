@@ -28,7 +28,7 @@ include 'header.php'?>
                                 </div>
                             </div>
                             <div class="col-sm-10">
-                                <div class="congratulations">
+                                <div class="text">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <p>
@@ -48,12 +48,50 @@ include 'header.php'?>
             </div>
             <div class="section">
                 <div class="row">
-                    <div class="prize">
-
+                    <div class="col-md-6 col-md-offset-6">
+                        <div class="img-center">
+                            <img src="assets/images/congratulations-image.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="section">
+                <div class="game">
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-5">
+                        <a href="#" class="play-again">PLAY AGAIN</a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text without-padding">
+                            <p class="small">
+                                Click Here to Play Again &
+                            </p>
+                            <p class="middle">
+                                RAISE YOUR SCORE!
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text without-padding">
+                        <div class="col-md-3 col-md-offset-5">
+                            <a class="fb-icon">
+                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text without-padding">
+                                <a class="small">
+                                    Click Here to Share Your
+                                </a><br/>
+                                <a class="fb-text">
+                                    Scores On Facebook!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

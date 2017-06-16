@@ -35,19 +35,30 @@ body {
     .top-text {
       padding-top: 30px; } }
 
-.congratulations {
+a {
+  text-decoration: none;
+  color: #666666; }
+  a.fb-icon {
+    color: #3d61b1;
+    font-size: 70px; }
+
+.text {
   text-align: right;
   vertical-align: bottom;
   padding-top: 70px;
   font-size: 32.02px;
   font-weight: 300;
   color: #666666; }
-  .congratulations .small {
+  .text .small {
     font-size: 16.67px; }
-  .congratulations .middle {
+  .text .middle {
     font-size: 19.52px;
     font-weight: bold;
     color: #f7bc3b; }
+  .text .fb-text {
+    font-size: 19.52px;
+    font-weight: bold;
+    color: #3d61b1; }
 
 .block {
   height: 24px;
@@ -111,18 +122,19 @@ body {
   float: none;
   margin: 0 auto; }
 
-img {
-  position: absolute; }
-  img.left {
-    left: 0.1%; }
-    @media (max-width: 991px) {
-      img.left {
-        display: none; } }
-  img.right {
-    right: 0.1%; }
-    @media (max-width: 991px) {
-      img.right {
-        display: none; } }
+img.left {
+  position: absolute;
+  left: 0.1%; }
+  @media (max-width: 991px) {
+    img.left {
+      display: none; } }
+
+img.right {
+  position: absolute;
+  right: 0.1%; }
+  @media (max-width: 991px) {
+    img.right {
+      display: none; } }
 
 .box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -142,13 +154,16 @@ img {
 
 .game a {
   border-radius: 5px;
-  display: inline; }
+  display: inline;
+  font-size: 29px;
+  padding: 10px; }
   .game a.start {
-    font-size: 29px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(#b5dc74, #77a230);
-    padding: 10px; }
+    background: linear-gradient(#b5dc74, #77a230); }
+  .game a.play-again {
+    color: #626161;
+    background: linear-gradient(#fbd47d, #f8c149); }
 
 .game .game-container {
   background-color: #e2e3e4;
@@ -216,5 +231,8 @@ img {
 
 .without-border {
   border-bottom: none; }
+
+.img-center {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */
