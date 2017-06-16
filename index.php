@@ -11,7 +11,7 @@ include 'header.php'
         <img class="left" src="assets/images/background-left.png">
         <img class="right" src="assets/images/background-right.png">
         <div class="row">
-            <div class="col-md-9 col-centered box">
+            <div class="col-md-9 col-xs-12 col-centered box">
                 <div class="section">
                     <div class="row">
                         <div class="col-md-12">
@@ -43,9 +43,9 @@ include 'header.php'
                                             <div class="col-md-12">
                                                 <div class="difficulties">
                                                     <ul>
-                                                        <li><a href="#" class="clicked">EASY</a> |</li>
-                                                        <li><a href="#">MEDIUM</a> |</li>
-                                                        <li><a href="#">HARD</a></li>
+                                                        <li><a href="#" id="level-btn-easy">EASY</a> |</li>
+                                                        <li><a href="#" id="level-btn-medium">MEDIUM</a> |</li>
+                                                        <li><a href="#" id="level-btn-hard">HARD</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -67,7 +67,7 @@ include 'header.php'
                         </div>
                         <div class="col-md-4 col-md-offset-2">
                             <!--button-->
-                            <a class="start">START</a>
+                            <a class="start" id="start-btn">START</a>
                         </div>
                     </div>
                 </div>

@@ -48,9 +48,9 @@ include 'header.php'?>
             </div>
             <div class="section">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-6">
-                        <div class="img-center">
-                            <img src="assets/images/congratulations-image.jpg">
+                    <div class="col-md-9 col-md-offset-3">
+                        <div class="">
+                            <img class="img-center" src="assets/images/congratulations-image.jpg">
                         </div>
                     </div>
                 </div>
@@ -58,10 +58,10 @@ include 'header.php'?>
             <div class="section">
                 <div class="game">
                 <div class="row">
-                    <div class="col-md-3 col-md-offset-5">
-                        <a href="#" class="play-again">PLAY AGAIN</a>
+                    <div class="col-md-4 col-xs-5 col-xs-offset-3 col-md-offset-3 text-align-right">
+                        <a href="index.php" class="play-again">PLAY AGAIN</a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 without-padding">
                         <div class="text without-padding">
                             <p class="small">
                                 Click Here to Play Again &
@@ -75,12 +75,12 @@ include 'header.php'?>
                 </div>
                 <div class="row">
                     <div class="text without-padding">
-                        <div class="col-md-3 col-md-offset-5">
+                        <div class="col-md-4 col-md-offset-3">
                             <a class="fb-icon">
                                 <i class="fa fa-facebook-square" aria-hidden="true"></i>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 without-padding">
                             <div class="text without-padding">
                                 <a class="small">
                                     Click Here to Share Your
