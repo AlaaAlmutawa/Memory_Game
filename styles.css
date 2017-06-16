@@ -35,6 +35,20 @@ body {
     .top-text {
       padding-top: 30px; } }
 
+.congratulations {
+  text-align: right;
+  vertical-align: bottom;
+  padding-top: 70px;
+  font-size: 32.02px;
+  font-weight: 300;
+  color: #666666; }
+  .congratulations .small {
+    font-size: 16.67px; }
+  .congratulations .middle {
+    font-size: 19.52px;
+    font-weight: bold;
+    color: #f7bc3b; }
+
 .block {
   height: 24px;
   background-color: black;
@@ -57,10 +71,13 @@ body {
   background-color: #f1f2f2;
   border-radius: 8px;
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 0px; }
+  @media (max-width: 995px) {
+    .top-10 {
+      margin-right: 20px; } }
   .top-10 span {
     vertical-align: middle; }
     .top-10 span.title {
@@ -141,8 +158,13 @@ img {
   margin-right: 20px;
   text-align: center;
   margin-bottom: 30px;
-  margin-left: 30px;
-  margin-top: 10px; }
+  margin-left: 0px;
+  margin-top: 10px;
+  padding-left: 0px; }
+  @media (max-width: 995px) {
+    .game .game-container {
+      margin-left: 10px;
+      padding: 30px; } }
 
 .game .disks {
   display: inline-block;
@@ -155,6 +177,42 @@ img {
     height: 95px;
     margin-left: 10px;
     float: left; }
+    @media (max-width: 1199px) {
+      .game .disks .disk {
+        width: 70px;
+        height: 75px; } }
+    @media (max-width: 970px) {
+      .game .disks .disk {
+        width: 90px;
+        height: 95px; } }
+    @media (max-width: 756px) {
+      .game .disks .disk {
+        width: 80px;
+        height: 85px; } }
+    @media (max-width: 690px) {
+      .game .disks .disk {
+        width: 70px;
+        height: 75px; } }
+    @media (max-width: 640px) {
+      .game .disks .disk {
+        width: 60px;
+        height: 65px; } }
+    @media (max-width: 599px) {
+      .game .disks .disk {
+        width: 50px;
+        height: 55px; } }
+    @media (max-width: 550px) {
+      .game .disks .disk {
+        width: 40px;
+        height: 45px; } }
+    @media (max-width: 490px) {
+      .game .disks .disk {
+        width: 30px;
+        height: 35px; } }
+    @media (max-width: 450px) {
+      .game .disks .disk {
+        width: 20px;
+        height: 25px; } }
 
 .without-border {
   border-bottom: none; }

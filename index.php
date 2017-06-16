@@ -217,44 +217,44 @@ include 'header.php'
                                                         </div>
                                                     </div>
                                                 </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="disk">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="disk">
 
-                                                    </div>
-                                                    <div class="disk">
+                                                        </div>
+                                                        <div class="disk">
 
-                                                    </div>
-                                                    <div class="disk">
+                                                        </div>
+                                                        <div class="disk">
 
-                                                    </div>
-                                                    <div class="disk">
+                                                        </div>
+                                                        <div class="disk">
 
-                                                    </div>
-                                                    <div class="disk">
+                                                        </div>
+                                                        <div class="disk">
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="disk">
-
-                                                    </div>
-                                                    <div class="disk">
-
-                                                    </div>
-                                                    <div class="disk">
-
-                                                    </div>
-                                                    <div class="disk">
-
-                                                    </div>
-                                                    <div class="disk">
-
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="disk">
+
+                                                        </div>
+                                                        <div class="disk">
+
+                                                        </div>
+                                                        <div class="disk">
+
+                                                        </div>
+                                                        <div class="disk">
+
+                                                        </div>
+                                                        <div class="disk">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -265,6 +265,7 @@ include 'header.php'
                 </div>
             </div>
         </div>
+    </div>
 
 
 <?php include 'footer.php'?>
