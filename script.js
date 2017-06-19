@@ -8,6 +8,9 @@ var minutes = 0;
 var hours = 0;
 var t;
  var gameArray = [];
+var cols = 5;
+var row = 4;
+var time;
 
 
 function add() {
@@ -20,19 +23,23 @@ function add() {
             hours++;
         }
     }
-    timer_text.text((hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds));
+    time = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
+    timer_text.text(time);
     timer();
     console.log("i am here");
 }
 function timer() {
-    t = setTimeout(add, 1000);
+    if(!gameIsOver()) {
+        t = setTimeout(add, 1000);
+    }else{
+        console.log(timer);
+        return true;
+    }
 }
 function removeLevelsDiv(){
     $('.difficulties').addClass("hidden");
 }
 function fillColors(){ //fill the colors behind the disks to be revealed once the disk is clicked
-    var cols = 5;
-    var row = 4;
     var colors = ['#6b4052', '#edcbd4', '#f8cd62', '#7c6258', '#9a986f', '#896539', '#009cb7', '#3f6bae', '#6a5994', '#8fc9c2' ]; //the number of colors have to be hlf the number of the disks
     colors = shuffleArray(colors);
     var i = 0;
@@ -65,22 +72,31 @@ function showColorFor5Seconds(){
     console.log(color);
     if($('.disk-clicked').length<2) {
         element.css('background-color', color);
-        setTimeout(function () {
-            element.css('background-color', '#b9babb');
-            element.removeClass("disk-clicked");
-
-        }, 5000);
         element.addClass("disk-clicked");
+        checkGame();
     }else{
+        checkGame();
         $('.disk-clicked').css('background-color','#b9babb');
         $('.disk-clicked').removeClass("disk-clicked");
         element.css('background-color', color);
-        setTimeout(function () {
-            element.css('background-color', '#b9babb');
-            element.removeClass("disk-clicked");
-
-        }, 5000);
         element.addClass("disk-clicked");
+    }
+}
+function checkGame(){
+    console.log("checkGame is being called")
+    var clickedDisk = $('.disk-clicked');
+    if(clickedDisk.eq(0).css("background-color") == clickedDisk.eq(1).css("background-color")){
+        console.log("found tWO");
+        clickedDisk.addClass("found");
+        clickedDisk.removeClass("disk-clicked");
+
+    }
+}
+function gameIsOver(){
+    if($('.found').length==cols*row){
+        return true; //game is done
+    }else{
+        return false;
     }
 }
 function shuffleArray(array) {
