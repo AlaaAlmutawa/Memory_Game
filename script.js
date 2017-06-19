@@ -11,8 +11,6 @@ var t;
 var cols = 5;
 var row = 4;
 var time;
-
-
 function add() {
     seconds++;
     if (seconds >= 60) {
@@ -32,9 +30,17 @@ function timer() {
     if(!gameIsOver()) {
         t = setTimeout(add, 1000);
     }else{
-        console.log(timer);
+        console.log(time);
+        afterGame();
         return true;
     }
+}
+function afterGame(){
+    $('.after-game').removeClass("hidden");
+    $('.before-game').addClass("hidden");
+    $('.section.game').addClass("hidden");
+    $('.popup h1').append(" "+time);
+    $('.popup').removeClass("hidden");
 }
 function removeLevelsDiv(){
     $('.difficulties').addClass("hidden");

@@ -32,10 +32,15 @@ include 'header.php'
                                     <div class="top-text">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p>
+                                                <p class="before-game">
                                                     <span class="large text-green">Find the pairs of colors in the least clicks possible.</span><br/>
                                                     When the clicked selections are different, both will be covered again.<br/>
                                                     The less the clicks, the higher the score!
+                                                </p>
+                                                <p class="after-game hidden">
+                                                    <span class="large text-purple">The more you play, the higher your score!!</span><br/>
+                                                    <span class="bold">Enter your personal information to become a registered participant.
+                                                        Already a player, just login to enter your new score.</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -72,8 +77,29 @@ include 'header.php'
                         </div>
                     </div>
                 </div>
-                <div class="section">
+                <div class="section relative">
                     <div class="row">
+                        <div class="popup">
+                            <!--we should create a hidden form here that would show after the game is over-->
+                            <h1>Your Time: </h1>
+                            <div class="form-group">
+                                <label for="first_name">First Name*: </label>
+                                <input type="text" class="form-control" id="first_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Last Name*: </label>
+                                <input type="text" class="form-control" id="last_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">email*: </label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone_number">Phone Number: </label>
+                                <input type="text" class="form-control" id="phone_number">
+                            </div>
+                            <button type="submit">Submit Score</button>
+                        </div>
                         <div class="col-md-3 without-padding"> <!--topten-->
                             <div class="top-10">
                                 <div class="row">

@@ -238,4 +238,16 @@ img.right {
 .img-center {
   margin: 0 auto; }
 
+.text-purple {
+  color: #a255b0; }
+
+.bold {
+  font-weight: bold; }
+
+.popup {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100px; }
+
 /*# sourceMappingURL=styles.css.map */
