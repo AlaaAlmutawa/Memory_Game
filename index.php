@@ -81,24 +81,26 @@ include 'header.php'
                     <div class="row">
                         <div class="popup hidden">
                             <!--we should create a hidden form here that would show after the game is over-->
-                            <h1>Your Time: </h1>
-                            <div class="form-group">
-                                <label for="first_name">First Name*: </label>
-                                <input type="text" class="form-control" id="first_name">
-                            </div>
-                            <div class="form-group">
-                                <label for="last_name">Last Name*: </label>
-                                <input type="text" class="form-control" id="last_name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">email*: </label>
-                                <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone_number">Phone Number: </label>
-                                <input type="text" class="form-control" id="phone_number">
-                            </div>
-                            <button type="submit">Submit Score</button>
+                            <form method="post" action="/congratulations.php" id="register-form">
+                                <h1>Your Time: </h1>
+                                <div class="form-group">
+                                    <label for="first_name">First Name*: </label>
+                                    <input type="text" class="form-control" id="first_name" name="first_name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="last_name">Last Name*: </label>
+                                    <input type="text" class="form-control" id="last_name" name="last_name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">email*: </label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone_number">Phone Number: </label>
+                                    <input type="text" class="form-control" id="phone_number">
+                                </div>
+                                <button type="submit" id="submit_score">Submit Score</button>
+                            </form>
                         </div>
                         <div class="col-md-3 without-padding"> <!--topten-->
                             <div class="top-10">

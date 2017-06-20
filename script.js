@@ -136,6 +136,31 @@ $('#level-btn-medium').on('click',function(){
     $(".difficulties a").removeClass("clicked");
     $('#level-btn-medium').addClass("clicked");
 });
+$("#register-form").validate({
+        // Specify validation rules
+        rules: {
+            // The key name on the left side is the name attribute
+            // of an input field. Validation rules are defined
+            // on the right side
+            "first_name": "required",
+            "last_name": "required",
+            "email": "required"
+
+        },
+        // Specify validation error messages
+        messages: {
+            "first_name": "Please enter your first name",
+            "last_name": "Please enter your last name",
+            "email": "Please enter your email address"
+        },
+        // Make sure the form is submitted to the destination defined
+        // in the "action" attribute of the form when valid
+        submitHandler: function(form) {
+            // todo add ajax for backend
+            // form.submit();
+        }
+});
+
 
 
 

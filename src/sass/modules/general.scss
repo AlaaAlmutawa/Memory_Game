@@ -269,6 +269,18 @@ a{
   width: 70%;
   padding: 10px;
   border-radius: 7px;
+  @media(max-width: 767px){
+    left: 80px;
+    width: 80%;
+  }
+  @media(max-width: 600px){
+    left: 50px;
+    width: 85%;
+  }
+  @media(max-width: 500px){
+    left: 20px;
+    width: 90%;
+  }
 }
 
 
