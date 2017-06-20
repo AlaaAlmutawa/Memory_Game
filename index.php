@@ -79,7 +79,7 @@ include 'header.php'
                 </div>
                 <div class="section relative">
                     <div class="row">
-                        <div class="popup">
+                        <div class="popup hidden">
                             <!--we should create a hidden form here that would show after the game is over-->
                             <h1>Your Time: </h1>
                             <div class="form-group">
@@ -293,6 +293,4 @@ include 'header.php'
             </div>
         </div>
     </div>
-
-
 <?php include 'footer.php'?>
